@@ -1,0 +1,151 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*Reusable style*/
+.container-fluid {
+  padding: 2% 10%;
+}
+
+.hr-line {
+  border: 2px solid #000;
+}
+
+h2, h6 {
+  font-size: 1.4rem;
+}
+
+h5 {
+  font-size: 1.2rem;
+}
+
+h6 {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.description {
+  padding-top: 1%;
+  text-align: left;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+/*styling heading */
+#header-section {
+  background: #FFFAFA;
+  border: 1px solid #FFFAFA;
+  border-radius: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-end;
+  padding: 2% 1%;
+  margin-left: 300px;
+  z-index: 20;
+}
+
+.intro-left {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.intro-left h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.intro-left p {
+  font-size: 2rem;
+}
+
+.profile-right {}
+
+.profile-right img {
+  width: 30%;
+  border: 2px solid #000000;
+  border-radius: 15px;
+  margin-right: 20%;
+}
+
+.profile-right img:hover {
+  background: red;
+  cursor: pointer;
+  transition: width 2s;
+  width: 43%;
+
+}
+
+/*Second section contact details*/
+.contact-details {
+  display: flex;
+  align-items: center;
+}
+
+.phone, .email, .linkedin {
+  padding: 1% 6%;
+}
+
+
+
+/*skills-section*/
+.skills-section {
+  display: flex;
+}
+
+.skills-section h5 {
+  font-size: 1rem;
+  text-decoration: underline;
+}
+
+.technical {
+  padding: 1% 8% 0 0;
+}
+
+.global {
+  padding: 2% 0% 0 10% ;
+}
+
+.Development {
+  padding: 2% 0;
+}
+
+table {
+  padding: 4% 0;
+}
+
+tr td {
+  padding: 0 2%;
+}
+
+.global tr td{
+  padding: 0;
+}
+
+@media screen and (max-width: 1500px) {
+  .header {
+    margin-left: 100px;
+  }
+
+  .intro-left h1 {
+    font-size: 2.5rem;
+  }
+
+  .intro-left p {
+    font-size: 1.3rem;
+  }
+}
